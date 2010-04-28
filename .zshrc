@@ -114,8 +114,6 @@ compinit
 
 bindkey -e
 
-alias emacs=emacs -nw
-
 export EDITOR=emacs
 stty stop undef
 alias ack=ack-grep
