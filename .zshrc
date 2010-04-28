@@ -112,7 +112,6 @@ alias asdfg='gcc -x c - && ./a.out && rm a.out'
 autoload -U compinit
 compinit
 
-export PATH=/cs/cs134/bin:$PATH
 bindkey -e
 
 alias emacs=emacs -nw
