@@ -1,0 +1,2 @@
+--type-set=cmm=.cmm
+--type-set=cuda=.cu
