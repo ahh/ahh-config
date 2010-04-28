@@ -48,3 +48,10 @@
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
  '(default ((t (:inherit nil :stipple nil :background "white" :foreground "black" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 80 :width normal :foundry "unknown" :family "DejaVu Sans Mono")))))
+
+(setq load-path (cons "~/.emacs.d/my-elisp" load-path))
+
+;(require 'cuda-mode)
+;(autoload 'cuda-mode "cuda-mode.el" "Cuda mode." t)
+(add-to-list 'auto-mode-alist '("\\.cu$" . cuda-mode))
+(add-to-list 'auto-mode-alist '("\\.m$" . octave-mode))
