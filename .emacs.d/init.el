@@ -51,7 +51,8 @@
 
 (setq load-path (cons "~/.emacs.d/my-elisp" load-path))
 
-;(require 'cuda-mode)
-;(autoload 'cuda-mode "cuda-mode.el" "Cuda mode." t)
+
 (add-to-list 'auto-mode-alist '("\\.cu$" . cuda-mode))
 (add-to-list 'auto-mode-alist '("\\.m$" . octave-mode))
+
+(require 'cuda-mode)
