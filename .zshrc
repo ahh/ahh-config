@@ -35,7 +35,10 @@ setopt correct
 # (If you don't know what that is, you probably want it disabled.)
 ulimit -c 0
 
-alias     ls='ls -F --color=auto'
+alias ls='ls -F --color=auto'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
 alias asdfg='gcc -x c - && ./a.out && rm a.out'
 
 # Load the zsh completion system
